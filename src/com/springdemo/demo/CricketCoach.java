@@ -7,7 +7,6 @@ public class CricketCoach implements Coach {
 	private String emailAddress;
 
 	public CricketCoach() {
-		System.out.println("I'm inside of the no-arg constructor.");
 	}
 
 	public FortuneService getFortuneService() {
@@ -15,7 +14,6 @@ public class CricketCoach implements Coach {
 	}
 
 	public void setFortuneService(FortuneService fortuneService) {
-		System.out.println("I'm inside of the setter method.");
 		this.fortuneService = fortuneService;
 	}
 
