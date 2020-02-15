@@ -26,7 +26,7 @@ public class DemoBeanScopeApp {
 		
 		System.out.println(secondCoach.getDailyWorkout());
 		
-		System.out.println(isEqual);
+		System.out.println("firstCoach and secondCoach are same object: " + isEqual);
 		
 		System.out.println("Memory Location of firstCoach" + firstCoach);
 		

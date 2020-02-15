@@ -26,7 +26,8 @@
 	<!-- Coach -->
 	<bean
 		id="myCoach"
-		class="com.springdemo.demo.TrackCoach">
+		class="com.springdemo.demo.TrackCoach"
+		scope="prototype">
 		
 		<!-- Constructor Injection -->
 		<constructor-arg ref="happyFortuneService" />
